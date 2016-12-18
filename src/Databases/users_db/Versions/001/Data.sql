@@ -1,0 +1,2 @@
+INSERT INTO "user" (public_id, email) VALUES ('CDD301D8-F821-48E1-9A13-DAA5B506D322', 'admin@boilerplate.com');
+INSERT INTO "user" (public_id, email) VALUES ('B35F0662-23CA-4CD5-B703-B40992A8698D', 'user@boilerplate.com');

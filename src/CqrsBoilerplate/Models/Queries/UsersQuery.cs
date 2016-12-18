@@ -8,10 +8,11 @@ namespace CqrsBoilerplate.Models.Queries
     {
         public UsersQuery()
         {
-            
+            Filter = new UsersFilter();
         }
 
         public UsersQuery(UsersFilter filter)
+            : this()
         {
             Filter = filter;
         }
